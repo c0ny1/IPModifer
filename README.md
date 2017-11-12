@@ -5,14 +5,17 @@
 
 #### 项目结构
 ```
+|---clean.bat 清除垃圾批处理
 |---IPModifer.sln 工程文件
 |---IPModifer 代码文件夹
-|---config.mdb 数据库
-|---clean.bat 清除垃圾批处理
 |---doc 文档
-     |--- main.png 主界面
-     |--- configmannager.png 配置方案管理界面
-     |--- IPModifer.mdl Rational rose文件
+|    |--- main.png 主界面
+|    |--- configmannager.png 配置方案管理界面
+|    |--- IPModifer.mdl Rational rose文件
+|
+|---bin
+|    |---config.mdb 数据库
+|    |---IPModifer.exe 编译好的程序
 ```
 #### 主界面
 ![主界面](doc/main.png)
